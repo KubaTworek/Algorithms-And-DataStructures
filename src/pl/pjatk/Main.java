@@ -27,6 +27,7 @@ public class Main {
         System.out.println(Arrays.toString(arr7));
 
         System.out.println("Index of 35 is: " + SearchingAlgorithms.getIndexOfValueLinear(arr1, 35));
+        System.out.println("Index of 35 is: " + SearchingAlgorithms.getIndexOfValueBinary(arr1, 35));
 
 
 
