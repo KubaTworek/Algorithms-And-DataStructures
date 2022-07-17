@@ -1,5 +1,6 @@
 package pl.pjatk;
 
+import algorithms.SearchingAlgorithms;
 import algorithms.SortingAlgorithms;
 
 import java.util.Arrays;
@@ -21,9 +22,11 @@ public class Main {
 
         SortingAlgorithms.selectionSort(arr2);
         System.out.println(Arrays.toString(arr2));
-        
+
         SortingAlgorithms.countingSort(arr7);
         System.out.println(Arrays.toString(arr7));
+
+        System.out.println("Index of 35 is: " + SearchingAlgorithms.getIndexOfValueLinear(arr1, 35));
 
 
 
